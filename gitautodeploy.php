@@ -1,7 +1,7 @@
 <?php
 const API_KEY = "V56JhuMjNjkJW4ClkIOc6YFNRQ7cCc";
 const API_URL = "https://api.cloudways.com/api/v1";
-const EMAIL = "i@shal3v.com";
+const EMAIL = "ester.koritz@shal3v.com";
 
 /* examples
 const BranchName = "master";
