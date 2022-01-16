@@ -1,5 +1,5 @@
 <?php
-const API_KEY = "V56JhuMjNjkJW4ClkIOc6YFNRQ7cCc";
+const API_KEY = "2yihpNyRH6GNzWzFiLiNBZZ4GNX1bo";
 const API_URL = "https://api.cloudways.com/api/v1";
 const EMAIL = "ester.koritz@shal3v.com";
 
