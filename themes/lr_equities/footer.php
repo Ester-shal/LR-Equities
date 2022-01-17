@@ -4,7 +4,7 @@
  *
  * Contains the closing of the #content div and all content after
  *
- * @package Understrap
+ * @package lr
  */
 
 // Exit if accessed directly.
