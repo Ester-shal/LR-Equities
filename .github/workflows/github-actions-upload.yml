@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Upload a builded file.
     steps:
-    - run: echo "🎉 ip  ${{ secrets.IP }} username ${{ secrets.USER_NAME }} ."
+    - run: echo "🎉 ip  ${{ secrets.IP }} username ${{ secrets.USER_NAME }} :) ."
 
     - name: Checkout
       uses: actions/checkout@v2.3.4
