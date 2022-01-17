@@ -16,4 +16,4 @@ jobs:
         username: 'master_dehyzuafck'
         password: '3ezZ9U5D'
         localPath: '.'
-        remotePath: './themes'
+        remotePath: './applications'
