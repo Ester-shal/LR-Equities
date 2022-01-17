@@ -3,10 +3,10 @@ const API_KEY = "2yihpNyRH6GNzWzFiLiNBZZ4GNX1bo";
 const API_URL = "https://api.cloudways.com/api/v1";
 const EMAIL = "ester.koritz@shal3v.com";
 
-/* examples
+/* examples*/
 const BranchName = "master";
-const GitUrl = "git@bitbucket.org:user22/repo_name.git";
-*/
+const GitUrl = "git@github.com:Ester-shal/LR-Equities.git";
+
 
 //Use this function to contact CW API
 function callCloudwaysAPI($method, $url, $accessToken, $post = [])
