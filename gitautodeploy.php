@@ -52,10 +52,10 @@ $gitPullResponse = callCloudWaysAPI('POST', '/git/pull', $accessToken, [
     'server_id' => $_GET['server_id'],
     'app_id' => $_GET['app_id'],
     'git_url' => $_GET['git_url'],
-    'branch_name' => $_GET['branch_name']
-    /* Uncomment it if you want to use deploy path, Also add the new parameter in your link
+    'branch_name' => $_GET['branch_name'],
+    /* Uncomment it if you want to use deploy path, Also add the new parameter in your link*/
     'deploy_path' => $_GET['deploy_path']  
-    */	
+    	
     ]);
 
 echo (json_encode($gitPullResponse));
