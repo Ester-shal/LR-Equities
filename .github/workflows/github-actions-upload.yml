@@ -15,5 +15,5 @@ jobs:
         port: 22
         username: 'master_dehyzuafck'
         password: '3ezZ9U5D'
-        localPath: './dist/index.js'
+        localPath: '.'
         remotePath: './'
