@@ -16,3 +16,4 @@ jobs:
         username: 'master_dehyzuafck'
         password: '3ezZ9U5D'
         remotePath: '/applications/wyvdevvkhg/public_html'
+    -run: echo "upload the files"    
