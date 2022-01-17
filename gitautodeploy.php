@@ -4,7 +4,7 @@ const API_URL = "https://api.cloudways.com/api/v1";
 const EMAIL = "ester.koritz@shal3v.com";
 
 /* examples*/
-const BranchName = "master";
+const BranchName = "main";
 const GitUrl = "git@github.com:Ester-shal/LR-Equities.git";
 
 
