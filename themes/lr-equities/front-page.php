@@ -1,1 +1,1 @@
-<?php echo "LR Equities 1!";
+<?php echo "LR Equities 2S!";
