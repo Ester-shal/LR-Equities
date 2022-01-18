@@ -5,22 +5,23 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Upload a builded file.
     steps:
-      # To use this repository's private action, you must check out the repository
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Hello world action step
-        uses: ./ # Uses an action in the root directory
-        id: hello
-        with:
-          cloudways_username: master_dehyzuafck
-          cloudways_server: ${{ secrets.IP }}
-          cloudways_deploy_path: '~/public_html/wp-content'
-          cloudways_ssh_private_key: ${{ secrets.PASSWORD }}
-          build_script: node -v; \
-            composer --version; \
-            npm --version"
-          # build_script: "npm install && composer install --no-dev --no-scripts"
+    - run: echo "🎉 😀🤭😘🤣 ip  ${{ secrets.IP }} username ${{ secrets.USER_NAME }} :) ."
+
+    - name: Checkout
+      uses: actions/checkout@v2.3.4
+    - name: Hello world action step
+      uses: ./ # Uses an action in the root directory
+      id: hello
+      with:
+        cloudways_username: master_dehyzuafck
+        cloudways_server: ${{ secrets.IP }}
+        cloudways_deploy_path: '~/public_html/wp-content'
+        cloudways_ssh_private_key: ${{ secrets.PASSWORD }}
+        build_script: node -v; \
+          composer --version; \
+          npm --version"
+        # build_script: "npm install && composer install --no-dev --no-scripts"
 
     
