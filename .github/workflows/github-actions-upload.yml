@@ -19,4 +19,4 @@ jobs:
         username: '${{ secrets.USER_NAME }}'
         password: '${{ secrets.PASSWORD }}'
         localPath: '.'
-        remotePath: './applications/wyvdevvkhg/public_html/wp_content'
+        remotePath: './applications/wyvdevvkhg/public_html'
